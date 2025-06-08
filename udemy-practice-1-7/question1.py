@@ -4,3 +4,9 @@
 # Use the formula:
 # final amount = principal * (1 + interest_rate) ^ years
 
+def main():
+    print("Welcome to the Compound Interest Calculator!")
+
+
+
+main()
