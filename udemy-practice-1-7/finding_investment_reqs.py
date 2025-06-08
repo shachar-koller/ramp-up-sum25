@@ -5,6 +5,6 @@ def main():
 
     necessary = desired / (1.0 + rate)**years
 
-    print("You need to invest: " + str(necessary) + " dollars to reach your goal")
+    print(f"You need to invest ${necessary:,.2f} to reach your goal")
 
 main()

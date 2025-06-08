@@ -12,11 +12,8 @@ def main():
     yrs = int(input("How many years will you be investing? "))
 
     final = princ * (1 + rate)**yrs
-    rounded_final = round(final, 2)
-    print("\n")
 
-
-    print("Your total after compounding interest will be: $" + str(rounded_final))
+    print(f"Your total after compounding interest will be: ${final:,.2f}")
 
 
 
