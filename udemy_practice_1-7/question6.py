@@ -18,8 +18,12 @@ def finding_primes(lower_bound, upper_bound):
             all_nums += 1
         if prime:
             results.append(num_to_check)
-    
-    return("| ".join(str(num) for num in results))
+    output_lines = []
+    for i in range(0, len(results), 10):
+        chunk = results[i:i+10]
+        output_lines.append(" | ".join(str(num) for num in chunk))
+
+    return "\n".join(output_lines)
 
 def main():
     print(finding_primes(100, 1000))
