@@ -1,0 +1,3 @@
+# Question 17 - Fibonacci Sequence
+# Use a for loop to list the first 20 Fibonacci numbers:
+# 1, 1, 2, 3, 5, 8, 13, ...
