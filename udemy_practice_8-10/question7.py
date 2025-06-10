@@ -8,3 +8,14 @@
 # Otherwise → output "Sorry, that's not a primary color."
 # 
 # Use an if / else-if / else statement.
+
+color = input("Enter your favorite color:\n")
+
+if color.lower().strip() == 'blue':
+    print("Great choice.")
+elif color.lower().strip() == 'red':
+    print("Poor choice")
+elif color.lower().strip() == 'green':
+    print("Not a bad choice.")
+else:
+    print("Sorry, that's not a primary color.")
