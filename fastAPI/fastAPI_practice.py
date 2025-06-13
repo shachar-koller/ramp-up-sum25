@@ -40,3 +40,4 @@ def read_user(user_id: int):
     if user_id != 1:
         raise HTTPException(status_code=404, detail="User not found")
     return {"user_id": user_id}
+
