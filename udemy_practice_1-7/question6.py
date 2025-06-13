@@ -14,7 +14,7 @@ def finding_primes(lower_bound, upper_bound):
         while all_nums < num_to_check:
             if num_to_check % all_nums == 0:
                 prime = False
-                break
+                break 
             all_nums += 1
         if prime:
             results.append(num_to_check)
