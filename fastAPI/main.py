@@ -1,11 +1,10 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from fastapi import Depends
 
 #Create the fastAPI object
 app = FastAPI()
 
-
+items = {}
 
 #Get
 @app.get("/")
